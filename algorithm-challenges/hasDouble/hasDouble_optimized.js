@@ -9,7 +9,7 @@ function includesDoubleWithHashmap(array) {
     let i = 0;
 
     while (i < array.length) {
-        doubles[array[i]] = 'this text doesn not matter';
+        doubles[array[i]] = 'this text does not matter';
         if (doubles[(array[i] * 2)] || doubles[(array[i] / 2)]) {
             return true;
         }

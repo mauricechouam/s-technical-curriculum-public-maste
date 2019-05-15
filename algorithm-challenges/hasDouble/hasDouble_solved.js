@@ -19,15 +19,12 @@ function hasDoubleWithNestedForLoop(array) {
             }
         }
     }
-
     // if no doubles can be found, return false
-
     return false;
 }
 
 
 function hasDoubleWithIncludes(array) {
-
     for (var i = 0; i < array.length; i++) {
         if (array.includes(array[i] * 2)) {
             return true;

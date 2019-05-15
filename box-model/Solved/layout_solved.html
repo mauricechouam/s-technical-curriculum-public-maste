@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <style>
+        html,
+        body {
+            font-family: sans-serif;
+        }
+
+        .nav {
+            height: 70px;
+            background-color: #999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .nav a {
+            float: left;
+            margin: 0 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .window-one {
+            background-color: #ED4C67;
+            height: 600px;
+            width: 40%;
+            float: left;
+            box-sizing: border-box;
+        }
+
+        .window-two {
+            background-color: #FDA7DF;
+            height: 600px;
+            width: 40%;
+            float: left;
+            box-sizing: border-box;
+
+        }
+
+        .bio-box {
+            background-color: #12CBC4;
+            height: 200px;
+            width: 20%;
+            float: left;
+            box-sizing: border-box;
+
+        }
+
+        .window-one,
+        .window-two,
+        .bio-box {
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="clearfix">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Hobbies</a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="window-one">
+
+        </div>
+
+        <div class="window-two">
+
+        </div>
+
+        <div class="bio-box">
+
+        </div>
+    </main>
+
+</body>
+
+</html>
