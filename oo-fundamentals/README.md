@@ -10,6 +10,3 @@
 # Encapsulation
 
 # Polymorphism
-
-# The Challenge
-Create 
