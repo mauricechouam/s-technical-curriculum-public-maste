@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Building</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+
+    <!-- MODIFY ONLY THE CSS WHERE COMMENTED -->
+    <style>
+        /* This container will hold the entire grid system */
+        /* Set the max-width to 100% so that our container spans the entire page width */
+        /* Add margins of 0 to the top and bottom, and auto left and right to reinforce center alignment */
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+
+        /* The grid-row will hold all grid-items, i.e. all child components of the row */
+        /* Give the grid-row a display property of 'flex' so that we initialize FlexBox*/
+        /* Our flex-flow here will have two separate properties: row, to establish we want a left to right flow instead of top to bottom, and wrap, to establish that we want the row to wrap once it hits the edge of the page */
+        /* justify-content should be set to flex-start so that things start at the left most side of the page*/
+        .grid-row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+
+
+        /* On desktop views, we set a flex-basis of 20% for each grid-item. This means that 5 grid-items will display on the same level. The 6th grid-item will wrap to the next “row” since we are using flex-wrap: wrap in our grid-row.
+        We set a width of 259px for certain browsers that require a width to be defined. However, the actual width is set by flex-basis. */
+
+        /* A grid-item will be an individual card for your portfolio */
+        /* Add height and width values using 'height' and 'flex-basis'. Consider the difference between flex-basis and width */
+        /* Set position to relative, and add 10px of padding for our content. Box-sizing should be set to border-box */
+        .grid-item {
+            height: 550px;
+            flex-basis: 20%;
+            position: relative;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+
+        /* grid-item-content will be our actual content holder */
+        /* It should span 100% of the height and width of the grid-item ...add a small border so that you can actually see the content. */
+        .grid-item-content {
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            flex-direction: column;
+            border: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+        }
+
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px 70px;
+            background-color: #cc0000;
+            color: #fff;
+            border: 0;
+            border-radius: 0;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* MEDIA QUERIES */
+        /* You will notice  that the grid-items do not wrap appropriately if we do not set breakpoints. */
+        /* Use the following breakpoints (these are those standardized by Bootstrap): 
+            1200px: flex-basis of 33.33%
+            992px: flex-basis of 33.33%
+            768px: flex-basis of 50%
+            576px: flex-basis of 100%
+        */
+
+        @media(max-width: 1200px) {
+            .grid-item {
+                flex-basis: 33.33%;
+            }
+        }
+
+        @media(max-width: 992px) {
+            .grid-item {
+                flex-basis: 33.33%;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .grid-item {
+                flex-basis: 50%;
+            }
+        }
+
+        @media(max-width: 576px) {
+            .grid-item {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- YOU DO NOT NEED TO MODIFY THE HTML -->
+
+    <div class="container">
+        <div class="grid-row">
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">
+                    <div>
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan, nisl et viverra
+                            fringilla, dolor tellus porttitor orci, egestas faucibus erat massa sit amet ex. Curabitur a
+                            ultrices massa.</p>
+                    </div>
+                    <div>
+                        <button>Code</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
