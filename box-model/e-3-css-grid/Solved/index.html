@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Building</title>
+
+
+    <!-- MODIFY ONLY THE CSS WHERE COMMENTED -->
+    <style>
+        /* The grid-container will hold all grid-items */
+        /* Give the display a display property of 'grid' so that we initialize CSS Grid*/
+        /* grid-template-columns defines how many columns  we have, by setting each one to 'auto', we will have equal  columns */
+        /* grid-column-gap and  grid-row-gap managethe gaps in columns and rows, respectively. Add 20px to each */
+        .grid-container {
+            /* YOUR CODE HERE */
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+
+        /* A grid-item will be an individual card for your portfolio */
+        /* Add height, padding and border values. */
+        .grid-item {
+            /* YOUR CODE HERE */
+            height: 300px;
+            padding: 10px;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        /* MEDIA QUERIES */
+        /* You will notice  that the grid-items do not wrap appropriately if we do not set breakpoints. */
+        /* Use the following breakpoints (these are those standardized by Bootstrap): 
+            1200px: grid-template-columns of auto auto auto auto
+            992px: grid-template-columns of auto auto auto 
+            768px: grid-template-columns of auto auto
+            576px: grid-template-columns of auto
+        */
+
+        @media(max-width: 1200px) {
+            .grid-container {
+                grid-template-columns: auto auto auto auto;
+            }
+
+        }
+
+        @media(max-width: 992px) {
+            .grid-container {
+                grid-template-columns: auto auto auto;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .grid-container {
+                grid-template-columns: auto auto;
+            }
+        }
+
+        @media(max-width: 576px) {
+            .grid-container {
+                grid-template-columns: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- YOU DO NOT NEED TO MODIFY THE HTML -->
+
+    <div class="grid-container">
+        <div class="grid-item">
+            1
+
+        </div>
+        <div class="grid-item">
+            2
+
+        </div>
+
+        <div class="grid-item">
+            3
+
+        </div>
+        <div class="grid-item">
+            4
+
+        </div>
+        <div class="grid-item">
+            5
+
+        </div>
+        <div class="grid-item">
+            6
+
+        </div>
+        <div class="grid-item">
+            7
+
+        </div>
+    </div>
+
+</body>
+
+</html>
