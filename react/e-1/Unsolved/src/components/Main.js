@@ -16,7 +16,7 @@ class Main extends Component {
                 <p>Name: {} </p>
                 <p>Age: {}</p>
                 <p>Email: {}</p>
-                <p>Address: {t}</p>
+                <p>Address: {}</p>
                 <p>Phone: {}</p>
 
             </section>

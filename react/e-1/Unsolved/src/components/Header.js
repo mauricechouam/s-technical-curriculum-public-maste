@@ -11,8 +11,8 @@ class Header extends Component {
         return (
             <header className="header" >
 
-                {/* Change the greeting to say, Welcome <NAME> */}
-                < h1 > Welcome!</h1>
+                {/* Change the greeting to say, Welcome, <NAME>! */}
+                < h1 > Welcome, {}!</h1>
             </header >
         );
     }
