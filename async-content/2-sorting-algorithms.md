@@ -1,4 +1,4 @@
-[Back to Contents](/../)
+[Back to Contents](https://github.com/coding-boot-camp/cs-technical-curriculum/tree/master/async-content)
 
 # Lesson Two: Sorting Algorithms
 
