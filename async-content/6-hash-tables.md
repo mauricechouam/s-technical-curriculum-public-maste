@@ -54,7 +54,7 @@ Basically every language has their own version of objects, and JavaScript object
 
 Methods are actions that can be performed. When we aren't using them inside of an object, we usually refer to these as functions in JavaScript. Methods are simply functions nested inside of an object.
 
-![object example](../assets/images/hash1.png)
+![object example](./assets/images/hash1.png)
 
 In this object, fullName is an object method that returns the firstName and lastName of the object that it is currently in.
 
