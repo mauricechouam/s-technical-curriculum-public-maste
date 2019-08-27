@@ -51,7 +51,8 @@ Given an array, which is represented like this, if you wanted to copy the array 
 -   Deep copy - follow the reference and find the true value inside the array. Then copy those values (in this case 94, 29) into two new memory locations. Then build a new array which points to the copies of the item we initially built.
 
  ## Watch
- Watch the following video provided by HackerRank.
+ Watch the following video provided by HackerRank.  
+ 
 [![arrays](http://img.youtube.com/vi/6mNfgBWccFY/0.jpg)](http://www.youtube.com/watch?v=6mNfgBWccFY "Arrays")
 
  ## Solve
