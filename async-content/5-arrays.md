@@ -3,7 +3,7 @@
 In this section we’ll go under the hood and talk about how array generally work in most programming languages and the tradeoffs and limitations of arrays.
 
 
-##### Read
+## Read
  I know what you're thinking:
 > I already know what arrays are, why am I even on this page?
 
