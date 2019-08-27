@@ -1,6 +1,6 @@
 [Back to Contents](https://github.com/coding-boot-camp/cs-technical-curriculum/tree/master/async-content)
 
-# Lesson Six: Inefficient Algorithms
+# Lesson Ten: Inefficient Algorithms
 
 In this lesson, we will cover NP algorithms. The runtime for algorithms that run in NP grows exponentially as the size of the input increases.
 

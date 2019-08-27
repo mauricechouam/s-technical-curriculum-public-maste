@@ -1,6 +1,6 @@
 [Back to Contents](https://github.com/coding-boot-camp/cs-technical-curriculum/tree/master/async-content)
 
-# Lesson Six: Time Algorithms
+# Lesson Nine: Time Algorithms
 
 In this lesson, we will cover a variety of algorithms, including: constant time algorithms, linear time algorithms, and logarithmic algorithms.
 

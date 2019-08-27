@@ -1,6 +1,6 @@
 [Back to Contents](https://github.com/coding-boot-camp/cs-technical-curriculum/tree/master/async-content)
 
-# Lesson Six: Big O Notation
+# Lesson Eight: Big O Notation
 
 In this lesson, we'll cover the concept of Big Oh notation at a high level. We then will discuss why it's an important Computer Science concept to understand.
 

@@ -1,6 +1,6 @@
 [Back to Contents](https://github.com/coding-boot-camp/cs-technical-curriculum/tree/master/async-content)
 
-# Lesson Two: Data Structures
+# Lesson Four: Data Structures
 
 In addition to the data structures we’ve already encountered, computer scientists have designed a few other interesting data types, which occasionally come in useful. We’ll cover these, less commonly used data structures here.
 

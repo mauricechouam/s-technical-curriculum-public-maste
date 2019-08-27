@@ -1,6 +1,6 @@
 [Back to Contents](https://github.com/coding-boot-camp/cs-technical-curriculum/tree/master/async-content)
 
-# Lesson Six: Priority Queues
+# Lesson Seven: Priority Queues
 
 In this section, we will present another Computer Science data structure: Priority Queues.
 
