@@ -1,4 +1,4 @@
-[Back to Contents](../)
+[Back to Contents](/../../)
 
 # Lesson Two: Sorting Algorithms
 
