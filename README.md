@@ -26,4 +26,4 @@ Small application challenges for pair programming workshops
 
 Missing something? Spot an issue? Have a suggestion? Please [log the issue](https://github.com/coding-boot-camp/cs-technical-curriculum/issues).
 
-For emergency issues email Alec Down (adown@trilogyed.com) or Mariam Sallam (msallam@trilogyed.com).
+For emergency issues email Alec Down (adown@bootcampspot.com) or Mariam Sallam (msallam@bootcampspot.com).
