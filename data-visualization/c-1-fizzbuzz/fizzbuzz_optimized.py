@@ -5,8 +5,6 @@
 # (This is actually an interview question that has been claimed to weed out a significant percentage of programmer candidates. So if you solved it, your labor market value just went up.)
 #
 
-def fizzBuzz(1, 100):
-
 def fizzbuzz (start, end):
   if start % 15 == 0:
     print('FizzBuzz')
