@@ -15,6 +15,7 @@
 
 function stringClean(str) {
     var finalArr = [];
+
     for (var i = 0; i < str.length; i++) {
         if (
             str[i] === '0' ||

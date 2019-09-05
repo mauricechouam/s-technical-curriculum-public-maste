@@ -11,7 +11,7 @@
 
 function toCamelCase(str) {
 
-    // take the inpute string, and split it where there is an underscore or a dash
+    // take the input string, and split it where there is an underscore or a dash
 
     // use a loop to go through each item of  the splitSentence
 

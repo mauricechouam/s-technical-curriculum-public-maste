@@ -15,10 +15,10 @@
 
 function stringClean(str) {
     // initialize the array that will be returned as the response
-    let arr = [];
+
 
     // take the input string and loop through it
-    for (let i = 0; i < str.lenght; i++) {}
+
 
     // while looping push anything that is not a string numerical value to a new array
     // this array can then be joined and returned as the clean string
