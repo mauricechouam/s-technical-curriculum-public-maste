@@ -29,7 +29,7 @@ GitHub Pages allows you to create two different types of sites:
 You can only have one of these for each Github account. We recommend using this for your developer portfolio!
 
 - Create a new repository on GitHub called _username_.github.io where _username_ is your account name on GitHub.
-<img src="./assets/images/deployment2.png" alt="deployment1" style="border: 1px solid #000; max-height: 300px;">
+<img src="./assets/images/deployment2.png" alt="deployment1" height="300">
 
 - Open up Git Bash or Terminal on your computer. Navigate into the folder that you would like to store your project in and then clone the repository you just created.
 - Within this new folder, add an HTML file called `index.html` which contains the code for the website you would like to publish. It is _important_ that you call it `index.html` or GitHub Pages won't know where to look.
@@ -45,7 +45,7 @@ Page not showing up?
   - Open the inspector tools
   - Right click on the cirular refresh button
   - Hit `Empty Cache and Hard Reload`
-  - <img src="./assets/images/deployment1.png" alt="deployment2" style="border: 1px solid #000; max-height: 300px;">
+  - <img src="./assets/images/deployment1.png" alt="deployment2"  height="300">
 
 
 
