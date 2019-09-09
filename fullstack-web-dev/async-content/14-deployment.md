@@ -51,7 +51,11 @@ Page not showing up?
 
 ## Watch
 
-No video for this module
+### GitHub Pages Deployment:
+[![githubpages](http://img.youtube.com/vi/SKXkC4SqtRk/0.jpg)](https://youtu.be/SKXkC4SqtRk  "github pages")
+
+
+### Heroku Deployment:
 
 ## Solve
 
