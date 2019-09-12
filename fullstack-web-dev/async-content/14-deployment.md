@@ -14,8 +14,29 @@ When deciding where to deploy your applications, you need to understand the kind
 Once you've decided where you need to deploy, take a look at the respective guides and common troubleshooting steps.
 
 
-
 ## Heroku
+- Specify the version of node. Run `node --version` in your terminal to find out which version you are running. Once complete, add the following code to your `package.json`
+
+```
+"engines": {
+    "node": "10.x"
+  },
+```
+
+From your terminal, run `heroku create`. This will create a new Heroku project for you. Then follow the regular git steps:
+
+- `git add -A`
+- `git commit -m 'a commit message'`
+- `git push heroku master`
+
+Navigate to your new URL or run `heroku open` and you should see your page!
+
+*Common Troubleshooting Steps*
+Did you get an error in your build log?
+- You can view your build log by logging into Heroku and checking it out. If the error isn't clear, start  out by Googling it or checking StackOverflow.
+
+No error in the build log, but application still isn't showing?
+- Usually this means your application crashed after deployment. It  could be a database error, or a certain file couldn't be found. In any case, the application logs can be reached by running `heroku logs --tail` from your application in the terminal. It'll be long, so read carefully to find where the application crashed and the error!
 
 ## GitHub Pages
 
@@ -56,7 +77,5 @@ Page not showing up?
 
 
 ### Heroku Deployment:
+[![herokudeploy](http://img.youtube.com/vi/AZNFox2CvBk/0.jpg)](https://youtu.be/AZNFox2CvBk  "heroku deployment")
 
-## Solve
-
-No other challenges for this module

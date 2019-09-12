@@ -8,7 +8,7 @@ Welcome to the Career Services Technical Interviewing Curriculum! This repositor
 For information regarding onboarding and training, consult: 
 Alec Down (adown@bootcampspot.com)
 
-### Content
+## Content
 * [Full-stack Web Development](./fullstack-web-dev)
 	- [Big O Notation](./fullstack-web-dev/big-o-notation)
 	- [The Box Model](./fullstack-web-dev/box-model)
@@ -24,6 +24,7 @@ Alec Down (adown@bootcampspot.com)
 	- [ES6 JavaScript](./data-visualization/javascript-es6)
 	- [Talking Tech](./data-visualization/talking-tech)
 
+---
 
 ## Need Help?
 
