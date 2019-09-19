@@ -71,4 +71,5 @@ Watch the following video provided by HackerRank.
  
 > Using the starter files, create two ES6 classes that run in your terminal
 > 
-> [Starter Files](https://github.com/coding-boot-camp/cs-technical-curriculum-public/tree/master/async-content/starter-files/06-hash-tables)
+> [Starter Files](https://github.com/coding-boot-camp/cs-technical-curriculum-public/tree/master/fullstack-web-dev/async-content/starter-files/06-hash-tables)
+
