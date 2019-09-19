@@ -54,7 +54,7 @@ Watch the following video provided by HackerRank.
   
 
 > Using your knowledge of sorting algorithms, such as Bubble Sort, take unsorted array below and write a program to sort it. 
-
+>
 > Do not use a solution from the Internet!
 
 ```
