@@ -73,3 +73,4 @@ Watch the following video provided by HackerRank.
 > 
 > [Starter Files](https://github.com/coding-boot-camp/cs-technical-curriculum-public/tree/master/fullstack-web-dev/async-content/starter-files/06-hash-tables)
 
+https://github.com/coding-boot-camp/cs-technical-curriculum-public/tree/master/async-content/starter-files/06-hash-tables
