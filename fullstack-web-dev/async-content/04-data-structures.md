@@ -49,13 +49,3 @@ Watch the following video provided by HackerRank.
 > For example:
 > "MCMXC" = 1990
 > "MDCLXVI" = 1666
-> 
-> function decodeRomanNumeral(roman) {
-> 
->    // YOUR CODE HERE
-> 
-> }
->
-> TEST CASES
-> console.log(decodeRomanNumeral("MCMXC")); // 1990
-> console.log(decodeRomanNumeral("MDCLXVI")); // 1666
