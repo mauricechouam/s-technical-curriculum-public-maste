@@ -41,10 +41,10 @@ Watch the following video.
 
  
 > Solve these Problems
-> How do you represent the number 22 in binary?
-> How do you represent the number -22 in binary (using two's complement)?
-> How do you represent the number 22 in a hexadecimal?
-> Perform addition on these two binary numbers, to produce a third binary number:
-> 1101 + 10001
-> How many digits of binary is a byte? How many digits of hex is a byte?
-> Decode the following ASCII message: 0x4869205468657265. Hint! Look it up in this table, there's no need to memorize it.
+> - How do you represent the number 22 in binary?
+> - How do you represent the number -22 in binary (using two's complement)?
+> - How do you represent the number 22 in a hexadecimal?
+> - Perform addition on these two binary numbers, to produce a third binary number:
+> - 1101 + 10001
+> - How many digits of binary is a byte? How many digits of hex is a byte?
+> - Decode the following ASCII message: 0x4869205468657265. Hint! Look it up in this table, there's no need to memorize it.
