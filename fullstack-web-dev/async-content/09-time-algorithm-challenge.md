@@ -85,4 +85,31 @@ Watch the following video.
 ## Solve
 
  
-> No challenge yet...
+> Consider the following code snippets. For each snippet, identify whether it will run in `O(1)`, `O(n)`, or `O(n^2)` time per Big O Notation standards.
+
+<strong>Snippet #1</strong>
+<pre>
+function printFirstItem(arr) {
+    console.log(arr[0]);
+}
+</pre>
+
+<strong>Snippet #2</strong>
+<pre>
+function printAllItems(arr) {
+    arr.forEach(function(item) {
+        console.log(item);
+    });
+}
+</pre>
+
+<strong>Snippet #3</strong>
+<pre>
+function printAllPossibleOrderedPairs(arr) {
+    arr.forEach(function(firstItem) {
+        arr.forEach(function(secondItem) {
+            console.log(firstItem, secondItem);
+        });
+    });
+}
+</pre>
