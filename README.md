@@ -18,6 +18,8 @@ Alec Down (adown@bootcampspot.com)
 	- [Whiteboarding](./fullstack-web-dev/whiteboarding)
 
 * [FinTech](./fintech)
+* [Cyber-security](./cyber-security)
+	- [Malware & Indicators of Compromise](./cyber-security/malware-indicators-of-compromise)
 
 * [Data Visualization](./data-visualization)
 	- [Big O Notation](./data-visualization/big-o-notation)
