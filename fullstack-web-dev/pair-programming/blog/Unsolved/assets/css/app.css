@@ -1,0 +1,93 @@
+/* Feel free to change any styles as you wish */
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+.blog-content {
+    font-size: 1rem;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.delete-button {
+    cursor: pointer;
+    color: #cf6a87;
+    float: right;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.delete-button:hover {
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+}
+
+.feed-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+}
+
+.feed-container:hover {
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+}
+
+.header {
+    color: #cf6a87;
+    cursor: pointer;
+}
+
+/* Bootstrap Overrides */
+
+.btn-primary {
+    width: 200px;
+    padding: 10px 50px;
+    background-color: #c44569;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #cf6a87 !important;
+}
+
+.btn-info {
+    width: 200px;
+    padding: 10px 50px;
+    background-color: #778beb;
+}
+
+.btn-info:focus,
+.btn-info:hover,
+.btn-info:active {
+    background-color: #546de5 !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.modal-title {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #cf6a87;
+}
+
+.modal-body {
+    font-weight: 300;
+    color: #000;
+}

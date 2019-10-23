@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List Application</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/yoga.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Blogster
+            </a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!--Input Form-->
+                <section>
+                    <button class="btn btn-primary my-3" type="button" data-toggle="collapse" data-target="#newPost">
+                        Add Post
+                    </button>
+                    <div class="collapse" id="newPost">
+                        <form>
+                            <div class="input-group mb-3">
+                                <input id="blog-title" type="text" class="form-control" placeholder="Post Title">
+
+                            </div>
+                            <div class="input-group mb-3">
+                                <textarea id="blog-content" rows="8" class="form-control"
+                                    placeholder="Content"></textarea>
+
+                            </div>
+
+                            <button class="btn btn-info type=" submit" id="add-blog-post">Submit</button>
+                        </form>
+                    </div>
+                </section>
+
+                <hr>
+
+                <!--List Items-->
+                <section>
+                    <div id="feed"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Modal -->
+    <div class="modal fade" id="blog-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--Custom JavaScript-->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
